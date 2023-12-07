@@ -1,0 +1,36 @@
+--- Python Pytest Selenium ---
+
+https://www.youtube.com/watch?v=8V3uP77o7kQ&t=9273s
+
+https://www.youtube.com/watch?v=aAXKRrcMQFs
+https://www.youtube.com/watch?v=zOP018xz0Jc
+
+(Selenium 4)
+https://www.youtube.com/watch?v=M3RyBvUTOpk&pp=ygUWcHl0aG9uIHNlbGVuaXVtIGRvY2tlcg%3D%3D
+
+(Naveen Automation Labs)
+https://www.youtube.com/watch?v=86nEglbjvIk&list=PLFGoYjJG_fqq2l-8EuBTZJ3lLcOrCNaiH
+
+
+--- Python Behave BDD Selenium ---
+
+https://www.youtube.com/watch?v=t8T5LWIO24I&t=4s
+
+
+--- Run Python Selenium tests in Docker ---
+
+https://www.youtube.com/watch?v=MZ-k2gzhAxg
+https://www.youtube.com/watch?v=peHHavCgHKg
+https://www.youtube.com/watch?v=0TFWtfFY87U
+https://www.youtube.com/watch?v=MZ-k2gzhAxg
+https://www.youtube.com/watch?v=-kVRHiArYCc
+https://www.youtube.com/watch?v=jZEFp7-VhmM&list=PLlc_LrU50tliN8PZ7Xk41NwrnelPHchSk
+
+--- Python Appium ---
+
+https://www.youtube.com/watch?v=2LjRUsPm9M0&list=PLQKDzuA2cCjo4YTGPxApQTUBuFttWwysE
+https://youtube.com/playlist?list=PLQKDzuA2cCjo4YTGPxApQTUBuFttWwysE&si=bTrC3GCBj7EnIjq8
+
+--- Pytest ---
+
+https://www.youtube.com/watch?v=AVJX8JSm2-U
