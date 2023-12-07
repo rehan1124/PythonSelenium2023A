@@ -25,9 +25,6 @@ class TestLogin(BaseTest):
         login_driver = navigationbar_driver.click_login_menu_item()
         self.take_screenshot()
 
-        # email = "sr24111989@gmail.com"
-        # password = "Selenium0987@"
-
         login_driver.enter_email(email)
         login_driver.enter_password(password)
         self.take_screenshot()
