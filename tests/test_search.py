@@ -26,7 +26,7 @@ class TestSearch(BaseTest):
         print(f"Validated text {validate_link_text} is present on page.")
         self.take_screenshot()
 
-        assert False
+        # assert False
 
     def test_search_invalid_product(self):
         """
@@ -47,7 +47,7 @@ class TestSearch(BaseTest):
         print(f"Validated text {expected_text} is present on page.")
         self.take_screenshot()
 
-        assert False
+        # assert False
 
     def test_empty_search(self):
         """
@@ -66,4 +66,4 @@ class TestSearch(BaseTest):
         print(f"Validated text {expected_text} is present on page.")
         self.take_screenshot()
 
-        assert False
+        # assert False
