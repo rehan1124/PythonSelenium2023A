@@ -1,5 +1,7 @@
-from selenium import webdriver
+import allure
 import pytest
+from selenium import webdriver
+
 from utilities.read_config import read_config
 
 
@@ -27,5 +29,19 @@ def setup(request):
     driver.get(url)
     driver.implicitly_wait(default_wait_time)
     request.cls.driver = driver
-    yield
+    yield driver
     driver.quit()
+
+
+@pytest.fixture()
+def capture_screenshot(request, setup):
+    yield
+    if request.session.testsfailed > 0:
+        try:
+            allure.attach(
+                setup.get_screenshot_as_png(),
+                name="screenshot",
+                attachment_type=allure.attachment_type.PNG
+            )
+        except Exception as e:
+            print(f"Failed to capture and attach screenshot: {e}")

@@ -4,6 +4,7 @@ from tests.base_test import BaseTest
 
 
 class TestSearch(BaseTest):
+
     def test_search_valid_product(self):
         """
         Test to search for existing/valid product.
@@ -25,6 +26,8 @@ class TestSearch(BaseTest):
         print(f"Validated text {validate_link_text} is present on page.")
         self.take_screenshot()
 
+        assert False
+
     def test_search_invalid_product(self):
         """
         Test to search for invalid/non-existing product.
@@ -44,6 +47,8 @@ class TestSearch(BaseTest):
         print(f"Validated text {expected_text} is present on page.")
         self.take_screenshot()
 
+        assert False
+
     def test_empty_search(self):
         """
         Test to validate results for empty search.
@@ -60,3 +65,5 @@ class TestSearch(BaseTest):
         assert home_page_driver.validate_no_product_search_results(expected_text)
         print(f"Validated text {expected_text} is present on page.")
         self.take_screenshot()
+
+        assert False
