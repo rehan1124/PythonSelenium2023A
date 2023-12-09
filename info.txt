@@ -1,9 +1,17 @@
 --- Python Pytest Selenium ---
 
+Python-Selenium-Pytest Framework
 https://www.youtube.com/watch?v=8V3uP77o7kQ&t=9273s
 
+Python-Selenium-Jenkins setup
 https://www.youtube.com/watch?v=aAXKRrcMQFs
-https://www.youtube.com/watch?v=zOP018xz0Jc
+
+Python-Selenium-Gid
+https://www.youtube.com/watch?v=MZ-k2gzhAxg&pp=ygUUcHl0aG9uIHNlbGVuaXVtLWdyaWQ%3D
+https://www.youtube.com/watch?v=MZ-k2gzhAxg
+
+
+https://www.youtube.com/watch?v=7xoJqQ5yEN4
 
 (Selenium 4)
 https://www.youtube.com/watch?v=M3RyBvUTOpk&pp=ygUWcHl0aG9uIHNlbGVuaXVtIGRvY2tlcg%3D%3D
