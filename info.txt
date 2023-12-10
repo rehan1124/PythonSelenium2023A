@@ -1,12 +1,12 @@
 --- Python Pytest Selenium ---
 
-Python-Selenium-Pytest Framework
+Python-Selenium-Pytest-Hybrid-qFramework DONE
 https://www.youtube.com/watch?v=8V3uP77o7kQ&t=9273s
 
-Python-Selenium-Jenkins setup
+Python-Selenium-Jenkins-Setup DONE
 https://www.youtube.com/watch?v=aAXKRrcMQFs
 
-Python-Selenium-Gid
+Python-Selenium-Gid ONGOING
 https://www.youtube.com/watch?v=MZ-k2gzhAxg&pp=ygUUcHl0aG9uIHNlbGVuaXVtLWdyaWQ%3D
 https://www.youtube.com/watch?v=MZ-k2gzhAxg
 
