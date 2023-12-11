@@ -40,9 +40,10 @@ def setup(request):
         else:
             options = webdriver.ChromeOptions()
 
-        selenium_hub_url = "http://172.29.112.1:4444/wd/hub"
+        selenium_hub_url = "http://localhost:4444"
         driver = webdriver.Remote(command_executor=selenium_hub_url, options=options)
 
+    driver.maximize_window()
     driver.maximize_window()
     driver.get(url)
     driver.implicitly_wait(default_wait_time)
