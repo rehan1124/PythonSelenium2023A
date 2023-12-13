@@ -43,7 +43,7 @@ allure serve Reports
 ```
 <**Standalone** mode>
 java -jar selenium-server-4.16.1.jar standalone --selenium-manager true
-
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 <**Hub** (Router, Distributor, Session Map, New Session Queue, Event Bus) and **Node** mode>
 java -jar .\selenium-server-4.16.1.jar hub
 java -jar .\selenium-server-4.16.1.jar node --selenium-manager true
