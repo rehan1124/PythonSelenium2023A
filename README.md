@@ -85,9 +85,14 @@ java -jar .\selenium-server-4.16.1.jar router --sessions <Session Map URL> --dis
 java -jar .\selenium-server-4.16.1.jar node --selenium-manager true
 ```
 
-* To make full usage of Selenium Grid, run tests in parallel.
-Install python package pytest-xdist. Refer requirements.txt file.
-Below command will run 8 tests in parallel. Depends upon number of system processors.
+* To make full usage of Selenium Grid, run tests in parallel. Install python package pytest-xdist. Refer
+  requirements.txt file. Below command will run 8 tests in parallel. Depends upon number of system processors.
+
 ```commandline
 python -m pytest tests -n 8
 ```
+
+* Getting started with _Docker_. Download Standalone Chrome Docker Image from
+  here _https://hub.docker.com/r/selenium/standalone-chrome_ and follow the instructions. No need to change any other
+  configurations (Only make sure to keep _GRID = Yes_ in _config.ini_ if you don't need to run tests locally). This will
+  help you to run tests in Selenium Grid server with Chrome driver inside docker container.
