@@ -6,12 +6,17 @@ https://www.youtube.com/watch?v=8V3uP77o7kQ&t=9273s
 Python-Selenium-Jenkins-Setup DONE
 https://www.youtube.com/watch?v=aAXKRrcMQFs
 
-Python-Selenium-Gid ONGOING
+Python-Selenium-Gid DONE
 https://www.youtube.com/watch?v=MZ-k2gzhAxg&pp=ygUUcHl0aG9uIHNlbGVuaXVtLWdyaWQ%3D
 https://www.youtube.com/watch?v=MZ-k2gzhAxg
 
 
-https://www.youtube.com/watch?v=7xoJqQ5yEN4
+https://www.youtube.com/watch?v=7xoJqQ5yEN4 (Docker) ONGOING
+https://www.youtube.com/watch?v=K_Ex7-zEv7w (Kubernetes)
+
+https://www.youtube.com/watch?v=942A0lz_Csw&list=PLsjUcU8CQXGEe8D7ZVJnANklJEHeqjBul (Python Selenium full course)
+
+https://www.youtube.com/watch?v=foEAus-KqII&list=PLsjUcU8CQXGGqjSvX8h5JQIymbYfzEMWd (Python full course)
 
 (Selenium 4)
 https://www.youtube.com/watch?v=M3RyBvUTOpk&pp=ygUWcHl0aG9uIHNlbGVuaXVtIGRvY2tlcg%3D%3D
