@@ -98,5 +98,6 @@ python -m pytest tests -n 8
   help you to run tests in Selenium Grid server with Chrome driver inside docker container.
 
 
-* A `docker-compose.yaml` file is added. Execute command `docker-compose up -d` to create Hub and Node (multiple
-  replicas). `deploy: replicas: 5` flag controls number of instances to be created.
+* Apart from `Standalone` mode, to run configuration in Hub-Node mode, a `docker-compose.yaml` file is added. Execute
+  command `docker-compose up -d` to create Hub and Node (multiple replicas). `deploy: replicas: 5` flag controls number
+  of nodes to be created.
