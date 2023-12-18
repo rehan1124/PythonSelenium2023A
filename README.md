@@ -96,3 +96,7 @@ python -m pytest tests -n 8
   here _https://hub.docker.com/r/selenium/standalone-chrome_ and follow the instructions. No need to change any other
   configurations (Only make sure to keep _GRID = Yes_ in _config.ini_ if you don't need to run tests locally). This will
   help you to run tests in Selenium Grid server with Chrome driver inside docker container.
+
+
+* A `docker-compose.yaml` file is added. Execute command `docker-compose up -d` to create Hub and Node (multiple
+  replicas). `deploy: replicas: 5` flag controls number of instances to be created.
