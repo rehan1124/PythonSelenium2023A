@@ -12,7 +12,9 @@ https://www.youtube.com/watch?v=MZ-k2gzhAxg
 
 
 https://www.youtube.com/watch?v=7xoJqQ5yEN4 (Docker)
-https://www.youtube.com/watch?v=K_Ex7-zEv7w (Kubernetes)
+https://www.youtube.com/watch?v=K_Ex7-zEv7w (Kubernetes) ONGOING
+
+https://www.youtube.com/watch?v=hOEFF6ioDD4 (Highlghting elements)
 
 https://www.youtube.com/watch?v=942A0lz_Csw&list=PLsjUcU8CQXGEe8D7ZVJnANklJEHeqjBul (Python Selenium full course)
 
