@@ -1,6 +1,7 @@
 # To execute this docker-compose yml file use `docker-compose up -d`
 # Check containers created using `docker ps`, and for images downloaded `docker images`
 # To stop the execution, run command `docker-compose down`
+# To delete all images that were downloaded, run command `docker rmi -f $(docker images -aq)` AND `docker system prune`
 version: "3"
 services:
   chrome:

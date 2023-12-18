@@ -1,6 +1,7 @@
-# To execute this docker-compose yml file use `docker-compose -f docker-compose.yaml up`
-# Add the `-d` flag at the end for detached execution
-# To stop the execution, hit Ctrl+C, and then `docker-compose -f docker-compose.yaml down`
+# To execute this docker-compose yml file use `docker-compose up -d`
+# Check containers created using `docker ps`, and for images downloaded `docker images`
+# To stop the execution, run command `docker-compose down`
+# To delete all images that were downloaded, run command `docker rmi -f $(docker images -aq)` AND `docker system prune`
 version: "3"
 services:
   chrome:
@@ -14,6 +15,16 @@ services:
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
     deploy:
       replicas: 5
+
+  chrome_video:
+    image: selenium/video:latest
+    volumes:
+      - /tmp/videos:/videos
+    depends_on:
+      - chrome
+    environment:
+      - DISPLAY_CONTAINER_NAME=chrome
+      - FILE_NAME=test_chrome_video.mp4
 
   selenium-hub:
     image: selenium/hub:latest
